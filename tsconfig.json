@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "importHelpers": true,
     "rootDir": "./src",
     "outDir": "dist",
     "baseUrl": ".",

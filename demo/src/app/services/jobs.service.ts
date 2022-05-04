@@ -39,8 +39,8 @@ export class JobsService {
 
     listenAll(): Observable<BoqModel[]> {
                 console.log("Refreshing...");
-                // return of("JUST CREATED A NEW BOQ");
-                return this.getQueried();
+
+        return this.getQueried();
     }
 
     getBoqs() {
