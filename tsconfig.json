@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "downlevelIteration": true,
     "importHelpers": true,
     "rootDir": "./src",
     "outDir": "dist",
@@ -14,11 +15,11 @@
       "es2016",
       "dom"
     ],
-    "module": "es2015",
+    "module": "esnext",
     "moduleResolution": "node",
     "sourceMap": true,
     "inlineSources": true,
-    "target": "es5",
+    "target": "es2015",
     "skipLibCheck": true,
     "typeRoots": [
       "../node_modules/@types"
