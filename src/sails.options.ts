@@ -1,4 +1,4 @@
-import { SailsIOClient } from "./sails.io.client";
+import {SailsIOClient} from "./sails.io.client";
 
 /**
  * Library specific configuration options

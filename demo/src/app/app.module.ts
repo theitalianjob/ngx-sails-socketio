@@ -4,7 +4,7 @@ import { RouterModule } from "@angular/router";
 
 import { AppComponent } from "./app.component";
 import { SERVICES } from "./services/index";
-import { SailsModule, SailsOptions, SailsEnvironment } from "ngx-sails-socketio";
+import { SailsModule, SailsOptions, SailsEnvironment } from "ng-sails";
 import { INTERCEPTORS } from "./interceptors";
 import { LoginComponent } from "./components/login/login.component";
 import { DashboardComponent } from "./components/dashboard/dashboard.component";

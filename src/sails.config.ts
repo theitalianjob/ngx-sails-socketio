@@ -1,4 +1,4 @@
-import { SailsOptions } from "./sails.options";
+import {SailsOptions} from "./sails.options";
 
 const __SAILS_VERSION__ = "0.11.0";
 const __OS_PLATFORM__ = "windows";

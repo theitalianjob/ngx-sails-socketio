@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { Sails, SailsListener } from "ngx-sails-socketio";
+import { Sails, SailsListener } from "ng-sails";
 
 @Component({
     selector: "app-root",

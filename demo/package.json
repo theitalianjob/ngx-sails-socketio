@@ -23,7 +23,7 @@
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/router": "^6.1.0",
     "core-js": "^2.4.1",
-    "ngx-sails-socketio": "file:..",
+    "ng-sails": "file:..",
     "rxjs": "^6.3.3",
     "rxjs-compat": "^6.3.3",
     "socket.io-client": "^2.1.1",

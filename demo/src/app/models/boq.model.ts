@@ -1,4 +1,4 @@
-import { SailsModel, Property, Endpoint } from "ngx-sails-socketio";
+import { SailsModel, Property, Endpoint } from "ng-sails";
 import { CustomerModel } from "./customer.model";
 import { CategoryModel } from "./category.model";
 import { JobModel } from "./job.model";

@@ -1,4 +1,4 @@
-import { SailsRequestOptions, SailsResponse, SailsInterceptorInterface, SailsInterceptorHandlerInterface } from "ngx-sails-socketio";
+import { SailsRequestOptions, SailsResponse, SailsInterceptorInterface, SailsInterceptorHandlerInterface } from "ng-sails";
 import { Router } from "@angular/router";
 import { Injectable } from "@angular/core";
 import { Observable } from "rxjs";

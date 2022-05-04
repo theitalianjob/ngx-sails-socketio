@@ -1,7 +1,7 @@
-import { Property, unserialize } from "./sails.serialize";
-import { SailsModelInterface } from "./sails.model.interface";
-import { Endpoint } from "./sails.decorator.endpoint";
-import { isObject } from "./utils";
+import {Property, unserialize} from "./sails.serialize";
+import {SailsModelInterface} from "./sails.model.interface";
+import {Endpoint} from "./sails.decorator.endpoint";
+import {isObject} from "./utils";
 
 @Endpoint()
 export abstract class SailsModel implements SailsModelInterface {

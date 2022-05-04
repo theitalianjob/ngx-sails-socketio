@@ -1,8 +1,8 @@
-import { Sails } from "./sails";
-import { SailsResponse } from "./sails.response";
-import { SailsIOClient } from "./sails.io.client";
-import { SailsRequestOptions } from "./sails.request.options";
-import { Observable } from "rxjs";
+import {Sails} from "./sails";
+import {SailsResponse} from "./sails.response";
+import {SailsIOClient} from "./sails.io.client";
+import {SailsRequestOptions} from "./sails.request.options";
+import {Observable} from "rxjs";
 
 class QueryBuilder {
     constructor(private query: string = "") { }

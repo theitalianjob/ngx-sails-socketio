@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { Sails } from "ngx-sails-socketio";
+import { Sails } from "ng-sails";
 import { Router } from "@angular/router";
 
 @Component({

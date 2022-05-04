@@ -1,14 +1,14 @@
-# ngx-sails-socketio
-[![npm version](https://badge.fury.io/js/ngx-sails-socketio.svg)](https://badge.fury.io/js/ngx-sails-socketio)
-[![Build Status](https://travis-ci.org/burntblark/ngx-sails-socketio.svg?branch=master)](https://travis-ci.org/burntblark/ngx-sails-socketio)
-[![Coverage Status](https://coveralls.io/repos/github/burntblark/ngx-sails-socketio/badge.svg?branch=master&cacheBuster=1)](https://coveralls.io/github/burntblark/ngx-sails-socketio?branch=master)
+# ng-sails
+[![npm version](https://badge.fury.io/js/ng-sails.svg)](https://badge.fury.io/js/ng-sails)
+[![Build Status](https://travis-ci.org/burntblark/ng-sails.svg?branch=master)](https://travis-ci.org/burntblark/ng-sails)
+[![Coverage Status](https://coveralls.io/repos/github/burntblark/ng-sails/badge.svg?branch=master&cacheBuster=1)](https://coveralls.io/github/burntblark/ng-sails?branch=master)
 
-An Angular module for connecting to your SailsJs Backend/API through SocketIO.
+An Angular module for connecting to your SailsJs Backend/API through SocketIO for > Angular 10
 
 ## Installation
 
  ```bash
- npm i ngx-sails-socketio
+ npm i ng-sails
  ```
 
 ## Usage

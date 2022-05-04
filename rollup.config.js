@@ -1,10 +1,19 @@
-
 export default {
     entry: 'dist/index.js',
-    dest: 'dist/bundles/ngx.sails.socketio.umd.js',
-    sourceMap: false,
+    dest: 'dist/bundles/ng.sails.umd.js',
+    sourceMap: true,
     format: 'umd',
     moduleName: 'ng.amazing',
+    external: [
+        '@angular/core',
+        'tslib',
+        'sails.io.js',
+        'socket.io-client',
+        'rxjs',
+        'rxjs/operators',
+        'json-object-mapper',
+        'rxjs/add/operator/map'
+    ],
     globals: {
         '@angular/core': 'ng.core',
         'rxjs/Observable': 'Rx',

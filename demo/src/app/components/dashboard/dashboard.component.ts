@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { Router } from "@angular/router";
-import { Sails } from "ngx-sails-socketio";
+import { Sails } from "ng-sails";
 import { JobsService } from "../../services/jobs.service";
 import { merge } from 'rxjs';
 import { tap } from 'rxjs/operators';

@@ -1,4 +1,4 @@
-import { Endpoint, SailsModel, Property } from "ngx-sails-socketio";
+import { Endpoint, SailsModel, Property } from "ng-sails";
 
 
 @Endpoint("customer")

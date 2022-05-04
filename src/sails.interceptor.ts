@@ -1,14 +1,9 @@
-import { SailsResponse } from "./sails.response";
-import { SailsRequestOptions } from "./sails.request.options";
-import { SailsInterceptorHandlerInterface } from "./sails.interceptor.handler";
-import { Observable } from "rxjs";
+import {SailsResponse} from "./sails.response";
+import {SailsRequestOptions} from "./sails.request.options";
+import {SailsInterceptorHandlerInterface} from "./sails.interceptor.handler";
+import {Observable} from "rxjs";
 
-export interface SailsInterceptorConstructor {
-    /**
-     * Allows Angular Dependency Injection
-     */
-    new(...args: any[]): any;
-}
+export type SailsInterceptorConstructor = new(...args: any[]) => any;
 
 export interface SailsInterceptorInterface {
     /**

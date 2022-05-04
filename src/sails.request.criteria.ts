@@ -1,4 +1,4 @@
-import { isUndefined, isString, isEmptyObject, isObject } from "./utils";
+import {isEmptyObject, isObject, isString, isUndefined} from "./utils";
 
 export class RequestCriteria {
 

@@ -1,10 +1,10 @@
-import { Sails } from "./sails";
-import { SailsModel } from "./sails.model";
-import { SailsRequest } from "./sails.request";
-import { SailsModelInterface } from "./sails.model.interface";
-import { RequestCriteria } from "./sails.request.criteria";
-import { Observable } from "rxjs";
-import { map } from "rxjs/operators";
+import {Sails} from "./sails";
+import {SailsModel} from "./sails.model";
+import {SailsRequest} from "./sails.request";
+import {SailsModelInterface} from "./sails.model.interface";
+import {RequestCriteria} from "./sails.request.criteria";
+import {Observable} from "rxjs";
+import {map} from "rxjs/operators";
 
 export class SailsQuery<T extends SailsModelInterface> {
     private model: T;

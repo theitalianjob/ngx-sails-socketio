@@ -1,4 +1,4 @@
-import { SailsModel, Sails, SailsQuery, RequestCriteria, SailsRequest, SailsResponse, SailsSubscription } from "ngx-sails-socketio";
+import { SailsModel, Sails, SailsQuery, RequestCriteria, SailsRequest, SailsResponse, SailsSubscription } from "ng-sails";
 import { Injectable } from "@angular/core";
 import { JobModel } from "../models/job.model";
 import { BoqModel } from "../models/boq.model";

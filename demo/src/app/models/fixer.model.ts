@@ -1,4 +1,4 @@
-import { SailsModel, Property, Endpoint } from "ngx-sails-socketio";
+import { SailsModel, Property, Endpoint } from "ng-sails";
 
 @Endpoint("fixer")
 export class FixerModel extends SailsModel {
